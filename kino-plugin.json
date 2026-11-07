@@ -1,0 +1,93 @@
+{
+  "id": "theme-goku-ultra-instinto",
+  "name": "Goku Ultra Instinto",
+  "version": "1.0.0",
+  "apiVersion": 18,
+  "entry": "plugin.js",
+  "description": "Tema plateado Ultra Instinto: fondo azul noche, acentos de plata, bordes finos y el logo GOKU en lugar del de Kino",
+  "hosts": [],
+  "categories": ["themes"],
+  "color": "#D4DEEC",
+  "icon": "icon.png",
+  "appThemes": [
+    {
+      "id": "goku-ultra-instinto",
+      "name": { "es": "Goku Ultra Instinto", "en": "Goku Ultra Instinct" },
+      "experience": "full",
+      "pluginColors": "respect",
+      "colors": {
+        "accent": "#D4DEEC",
+        "onAccent": "#05070D",
+        "background": "#05070D",
+        "surface": "#0B111D",
+        "surfaceHigh": "#162033",
+        "railPanel": "#080D18",
+        "textPrimary": "#F2F6FC",
+        "textSecondary": "#A9B6C9",
+        "focus": "#E8F0FB",
+        "onFocus": "#05070D",
+        "outline": "#2B3B57",
+        "border": "#9DB2CE",
+        "placeholderTop": "#101A2C",
+        "placeholderBottom": "#070B14"
+      },
+      "background": {
+        "type": "gradient",
+        "colors": ["#04060B", "#0B1322", "#16233D"],
+        "angle": 160
+      },
+      "shape": {
+        "cardRadius": 10,
+        "channelRadius": 10,
+        "buttonRadius": 20,
+        "chipRadius": 16,
+        "dialogRadius": 16,
+        "inputRadius": 10,
+        "dialogBorder": 2,
+        "menuBorder": 1,
+        "headerBorder": 1,
+        "cardBorder": 1,
+        "panelBorder": 1
+      },
+      "typography": { "scale": 1.0, "titleScale": 1.05, "bodyScale": 1.0 },
+      "elevation": { "cardShadow": 0.6, "dialogShadow": 0.85, "heroScrim": 0.7 },
+      "motion": { "focusZoom": 1.08, "crossfadeMs": 400, "heroDrift": "on" },
+      "player": {
+        "buttonScale": 1.1,
+        "playButtonScale": 1.2,
+        "seekBarScale": 1.2,
+        "labelScale": 1.0,
+        "buttonShape": "circle"
+      },
+      "tv": {
+        "motion": { "focusZoom": 1.1 },
+        "typography": { "scale": 1.0 }
+      },
+      "adjustable": {
+        "colors.accent": { "swatches": ["#D4DEEC", "#FFFFFF", "#9EC9FF", "#C8B6FF", "#8FE3FF"] },
+        "colors.border": { "swatches": ["#9DB2CE", "#FFFFFF", "#6F86A8", "#9EC9FF"] },
+        "shape.cardRadius": { "min": 0, "max": 20 },
+        "motion.focusZoom": { "min": 1.0, "max": 1.12 },
+        "background": true
+      },
+      "logo": {
+        "wordmark": {
+          "size": [160, 48],
+          "paths": [
+            { "d": "M0 6 L6 0 H34 V8 H8 V32 H26 V24 H18 V17 H34 V40 H6 L0 34 Z", "fill": "#D4DEEC" },
+            { "d": "M42 6 L48 0 H70 L76 6 V34 L70 40 H48 L42 34 Z M49 8 V32 H69 V8 Z", "fill": "#FFFFFF" },
+            { "d": "M84 0 H92 V16 L110 0 H120 L99 20 L120 40 H110 L92 24 V40 H84 Z", "fill": "#D4DEEC" },
+            { "d": "M128 0 H136 V32 H152 V0 H160 V34 L154 40 H134 L128 34 Z", "fill": "#D4DEEC" },
+            { "d": "M0 45 H160 V47 H0 Z", "fill": "#8FA9CC" }
+          ]
+        },
+        "mark": {
+          "size": [34, 40],
+          "paths": [
+            { "d": "M0 6 L6 0 H34 V8 H8 V32 H26 V24 H18 V17 H34 V40 H6 L0 34 Z", "fill": "#D4DEEC" }
+          ]
+        }
+      }
+    }
+  ]
+}
